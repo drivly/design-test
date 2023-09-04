@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .body {
+    @apply font-normal;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .monsterrat {
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  /* modify cursor highlight to be slightly transparent */
+  ::selection {
+    @apply bg-cyan-500/20;
+  }
+  ::moz-selection {
+    @apply bg-cyan-500/20;
+  }
+}
