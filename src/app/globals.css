@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .monsterrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* modify cursor highlight to be slightly transparent */
+  ::selection {
+    @apply bg-cyan-500/20;
+  }
+  ::moz-selection {
+    @apply bg-cyan-500/20;
+  }
+}
