@@ -4,14 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-  .body {
-    @apply font-normal;
-    font-family: 'IBM Plex Sans', sans-serif;
-  }
   .monsterrat {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
   }
   /* modify cursor highlight to be slightly transparent */
   ::selection {

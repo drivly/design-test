@@ -1,4 +1,4 @@
-export default function CTA() {
+export default function Text() {
     return (
         <div className="text-4xl font-semibold text-center py-36 md:py-18 monsterrat">
             <h1 className="px-6">
